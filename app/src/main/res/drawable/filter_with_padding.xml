@@ -1,0 +1,6 @@
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/filter"
+    android:insetLeft="20dp"
+    android:insetRight="-20dp"
+    >
+    </inset>

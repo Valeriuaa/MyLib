@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    android:background="@color/back">
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/bookTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Название книги"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/noteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="Введите вашу заметку"
+        android:minHeight="150dp"
+        android:gravity="top"
+        android:background="@drawable/et_dark_gray"
+        android:padding="8dp"/>
+
+
+
+    <!-- Поле для выбора даты начала чтения -->
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата начала чтения"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/startDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Выберите дату"
+        android:textColor="@color/white"
+        android:focusable="false"
+        android:clickable="true"
+        android:drawableEnd="@android:drawable/ic_menu_my_calendar"
+        android:padding="8dp"
+        android:background="@drawable/et_dark_gray"/>
+
+    <!-- Поле для выбора даты окончания чтения -->
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Дата окончания чтения"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/endDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Выберите дату"
+        android:textColor="@color/white"
+        android:focusable="false"
+        android:clickable="true"
+        android:drawableEnd="@android:drawable/ic_menu_my_calendar"
+        android:padding="8dp"
+        android:background="@drawable/et_dark_gray"/>
+
+    <!-- Выпадающий список жанров -->
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите жанр"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"/>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/genreSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/et_dark_gray"/>
+    <!-- Пример в layout для элемента списка -->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveNoteButton"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_dark_gray"
+        android:text="Сохранить"
+        android:textColor="@color/white" />
+
+</LinearLayout>

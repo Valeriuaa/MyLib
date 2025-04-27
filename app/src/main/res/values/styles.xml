@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+    <style name="CustomButtonStyle">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Зеленая тема -->
+        <style name="AppTheme.Green" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+            <item name="colorPrimary">@color/colorGreenPrimary</item>
+            <item name="colorPrimaryVariant">@color/colorGreenPrimaryVariant</item>
+            <item name="colorOnPrimary">@color/colorGreenOnPrimary</item>
+            <item name="colorSecondary">@color/colorGreenSecondary</item>
+            <item name="colorOnSecondary">@color/colorGreenOnSecondary</item>
+        </style>
+
+        <!-- Синяя тема -->
+        <style name="AppTheme.Blue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+            <item name="colorPrimary">@color/colorBluePrimary</item>
+            <item name="colorPrimaryVariant">@color/colorBluePrimaryVariant</item>
+            <item name="colorOnPrimary">@color/colorBlueOnPrimary</item>
+            <item name="colorSecondary">@color/colorBlueSecondary</item>
+            <item name="colorOnSecondary">@color/colorBlueOnSecondary</item>
+        </style>
+
+        <!-- Красная тема -->
+        <style name="AppTheme.Red" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+            <item name="colorPrimary">@color/colorRedPrimary</item>
+            <item name="colorPrimaryVariant">@color/colorRedPrimaryVariant</item>
+            <item name="colorOnPrimary">@color/colorRedOnPrimary</item>
+            <item name="colorSecondary">@color/colorRedSecondary</item>
+            <item name="colorOnSecondary">@color/colorRedOnSecondary</item>
+        </style>
+
+        <!-- Желтая тема -->
+        <style name="AppTheme.Yellow" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+            <item name="colorPrimary">@color/colorYellowPrimary</item>
+            <item name="colorPrimaryVariant">@color/colorYellowPrimaryVariant</item>
+            <item name="colorOnPrimary">@color/colorYellowOnPrimary</item>
+            <item name="colorSecondary">@color/colorYellowSecondary</item>
+            <item name="colorOnSecondary">@color/colorYellowOnSecondary</item>
+        </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">16dp</item>
+
+    </style>
+
+
+
+
+
+
+</resources>

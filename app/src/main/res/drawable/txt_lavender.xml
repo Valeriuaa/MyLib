@@ -1,0 +1,20 @@
+<!-- res/drawable/menu_background_with_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/lavenderBottomNavigation"/>
+            <corners android:radius="18dp"/>
+        </shape>
+    </item>
+
+    <item android:left="2dp" android:right="2dp" android:top="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:width="3dp"
+                android:color="#FFFFFF"/>
+            <corners android:radius="14dp"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+        <color name="colorAccent">#FF4081</color>
+
+        <color name="darkGreen">#333333</color>
+        <color name="darkGrey">#444444</color>
+        <color name="lightBrown">#D3B092</color>
+    <color name="selected_nav_color">#FF4081</color>
+    <color name="default_nav_color">#FFFFFF</color>
+    <color name="back">#222222</color>
+    <color name="selected_nav_background">#33FF4081</color> <!-- Полупрозрачный розовый -->
+
+    <!-- Светлая тема -->
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#00594F</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <!-- Темная тема -->
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorPrimaryVariantDark">#FFFFFF</color>
+    <color name="colorOnPrimaryDark">#000000</color>
+    <color name="colorSecondaryDark">#FFFFFF</color>
+    <color name="colorOnSecondaryDark">#000000</color>
+    <color name="colorBackgroundDark">#121212</color>
+    <!-- Зеленая тема -->
+    <color name="colorGreenPrimary">#4CAF50</color>
+    <color name="colorGreenPrimaryVariant">#388E3C</color>
+    <color name="colorGreenOnPrimary">#FFFFFF</color>
+    <color name="colorGreenSecondary">#8BC34A</color>
+    <color name="colorGreenOnSecondary">#000000</color>
+
+    <!-- Синяя тема -->
+    <color name="colorBluePrimary">#2196F3</color>
+    <color name="colorBluePrimaryVariant">#1976D2</color>
+    <color name="colorBlueOnPrimary">#FFFFFF</color>
+    <color name="colorBlueSecondary">#03A9F4</color>
+    <color name="colorBlueOnSecondary">#000000</color>
+
+    <!-- Красная тема -->
+    <color name="colorRedPrimary">#F44336</color>
+    <color name="colorRedPrimaryVariant">#D32F2F</color>
+    <color name="colorRedOnPrimary">#FFFFFF</color>
+    <color name="colorRedSecondary">#FF5722</color>
+    <color name="colorRedOnSecondary">#000000</color>
+
+    <!-- Желтая тема -->
+    <color name="colorYellowPrimary">#FFEB3B</color>
+    <color name="colorYellowPrimaryVariant">#FBC02D</color>
+    <color name="colorYellowOnPrimary">#000000</color>
+    <color name="colorYellowSecondary">#FFEB3B</color>
+    <color name="colorYellowOnSecondary">#000000</color>
+
+
+
+
+
+    <color name="khakiBackground">#D1B87F</color>  <!-- Мягкий хаки -->
+    <color name="lavenderBackground">#AFA8D6</color>  <!-- Приглушённая лаванда -->
+    <color name="paleGreenBackground">#A1D68F</color> <!-- Спокойный зелёный -->
+    <color name="darkGrayBackground">#1E1E1E</color>   <!-- Глубокий тёмно-серый -->
+    <color name="slateBlueBackground">#556B87</color> <!-- Спокойный серо-синий -->
+    <color name="darkSlateGreenBackground">#2A4F4F</color>  <!-- Глубокий зелёный -->
+
+
+    <!-- Цвета для Bottom Navigation -->
+    <color name="khakiBottomNavigation">#B39A6E</color> <!-- Мягкий хаки -->
+    <color name="lavenderBottomNavigation">#9286B8</color> <!-- Приглушённая лаванда -->
+    <color name="paleGreenBottomNavigation">#86B982</color> <!-- Натуральный зелёный -->
+    <color name="darkGrayBottomNavigation">#2B2B2B</color>  <!-- Чуть светлее тёмно-серого -->
+    <color name="slateBlueBottomNavigation">#3E5066</color>  <!-- Приглушённый серо-синий -->
+    <color name="darkSlateGreenBottomNavigation">#1F3A3A</color> <!-- Глубокий тёмно-зелёный -->
+
+
+
+    <color name="defaultTextColor">#FFFFFF</color>  <!-- Цвет текста по умолчанию -->
+
+</resources>

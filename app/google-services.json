@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "186132232543",
+    "project_id": "myliblera",
+    "storage_bucket": "myliblera.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186132232543:android:0db88a86ed438a77491eea",
+        "android_client_info": {
+          "package_name": "com.example.mylib"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1x9KAotr6O25cMjxxuK4Mg4PfyWuCW-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
